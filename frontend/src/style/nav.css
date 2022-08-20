@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  height: 40px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+li {
+    margin: 130px;
+
+}
+.link{
+  color: black;
+  font-size: 17px;
+}
+.navbar{
+  background-color: rgb(186, 250, 249);
+  height: 50px;
+
+}

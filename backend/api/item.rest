@@ -1,0 +1,26 @@
+GET http://localhost:5000/items
+
+###
+POST http://localhost:5000/items/add
+Content-Type: application/json
+
+{
+"name":"realme",
+"description":"realme is android phone",
+"number_of_stock":15,
+"price":15000
+}
+
+###
+PUT http://localhost:5000/items/62fe7da361f36b35217aa2fa
+Content-Type: application/json
+
+{
+"name":"realme",
+"description":"realme is android phone",
+"number_of_stock":15,
+"price":200
+}
+
+###
+DELETE  http://localhost:5000/items/62fe1a2486109f6020fd91a0
